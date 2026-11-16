@@ -23,10 +23,10 @@ while True:
         for i in dcrpt:
             print(i)
             if i == ".":
-                playsound("Documents/bep.wav")
+                playsound("bep.wav")
             if i == "-":
-                playsound("Documents/beeep.wav")
+                playsound("beeep.wav")
             if i == "/":
-                playsound("Documents/beep_break.wav")
+                playsound("beep_break.wav")
             if i == " ":
                 time.sleep(0.2)
