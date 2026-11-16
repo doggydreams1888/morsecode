@@ -9,7 +9,7 @@ Install the playsound library for python
 	Ubuntu (linux)
 Open up your terminal (I'm sure you know how), then do [sudo apt upgrade]. Then do [pip install playsound].
 Playsound should be installed. If you run into errors and problems that look like this:
------------------------------------------------------------------------------------------------------------
+
 error: externally-managed-environment
 
 × This environment is externally managed
@@ -31,11 +31,24 @@ error: externally-managed-environment
 note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
 hint: See PEP 668 for the detailed specification.
 error: externally-managed-environment
------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------
 do python3 -m pip install playsound --break-system-packages instead.
+
 
 
 
 	Windows
 Open up your powershell and do py [-m pip install playsound].
-If you get any errors, go figure. I don't know how.
+If you get any errors, go figure. I don't know how to fix those.
+
+
+
+
+Step 3:
+Install Python3. After you install Python 3, do [python3 morse_.py] in your terminal.
+
+
+
+
+
+Happy Morse'ing!
